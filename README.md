@@ -34,6 +34,8 @@ REGION=jp
 ssh root@0.tcp.jp.ngrok.io -p 16248 
 ROOT  默认密码:akashi520
 
+##重新部署
+建议先删除，再重新部署，否则：
 在log里能看出来
 每次重新部署后，它会因为xx被占用 ngrok启动失败，这样连不上ssh。
 需要 restart railway里的实例，才能看到输出的ssh账号密码。
