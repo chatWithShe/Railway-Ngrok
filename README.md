@@ -23,3 +23,15 @@ ps: Ngrok 的免费账号一个地区只能拥有一个隧道服务，所以想�
 `PORT` 中填入你搭建应用的端口，Railway 会自动将其转发到给你的域名上
 
 `REGION` 中填入隧道所在的地区，距离越近越好
+
+例如：
+NGROK_TOKEN=xxxx    中填入在 Ngrok 注册得到的 Authtoken  https://dashboard.ngrok.com/auth
+PORT=5212  
+REGION=jp
+
+查看部署Deploy Log ，在log里有ssh链接的账号密码
+例如
+ssh root@0.tcp.jp.ngrok.io -p 16248 
+ROOT  默认密码:akashi520
+
+每次重新部署后，它会因为端口被占用 ngrok启动失败，需要 restart 一下，才能看到输出的ssh账号密码。在log里能看出来
