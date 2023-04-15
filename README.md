@@ -16,7 +16,7 @@ ps: Ngrok 的免费账号一个地区只能拥有一个隧道服务，所以想�
 
 点击下方按钮部署
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/AkashiCoin/Railway-Ngrok&envs=NGROK_TOKEN,PORT,REGION&NGROK_TOKENDesc=在Ngrok注册得到的Authtoken&PORTDesc=你需要的开放的端口，默认80&PORTDefault=80&REGIONDesc=Ngrok的地区，默认jp，可选us/eu/ap/au/sa/jp/in&REGIONDefault=jp&referralCode=IGBnmG)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/chatWithShe/Railway-Ngrok&envs=NGROK_TOKEN,PORT,REGION&NGROK_TOKENDesc=在Ngrok注册得到的Authtoken&PORTDesc=你需要的开放的端口，默认80&PORTDefault=80&REGIONDesc=Ngrok的地区，默认jp，可选us/eu/ap/au/sa/jp/in&REGIONDefault=jp&referralCode=IGBnmG)
 
 `NGROK_TOKEN` 中填入在 `Ngrok` 注册得到的 `Authtoken` https://dashboard.ngrok.com/auth
 
@@ -25,7 +25,7 @@ ps: Ngrok 的免费账号一个地区只能拥有一个隧道服务，所以想�
 `REGION` 中填入隧道所在的地区，距离越近越好
 
 `FRP_IP` 自己搭的frp服务器  
-`PORT_SSH` 本地ssh映射frp服务器的端口 ,frp服务器用国内的，如果自己家有独立ip用自己家的 
+`PORT_SSH` 本地ssh映射frp服务器的端口 ,frp服务器用国内的，如果自己家有独立ip用自己家的  
 `PORT_SOCKS_PROXY` socks代理映射frp服务器的端口  
 `PORT_HTTP_PROXY`  http代理映射frp服务器的端口  
 
