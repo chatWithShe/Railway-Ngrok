@@ -14,7 +14,6 @@ ps: Ngrok 的免费账号一个地区只能拥有一个隧道服务，所以想�
 
 ## 二、部署
 
-点击下方按钮部署
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/chatWithShe/Railway-Ngrok&envs=NGROK_TOKEN,PORT,REGION&NGROK_TOKENDesc=在Ngrok注册得到的Authtoken&PORTDesc=你需要的开放的端口，默认80&PORTDefault=80&REGIONDesc=Ngrok的地区，默认jp，可选us/eu/ap/au/sa/jp/in&REGIONDefault=jp&referralCode=IGBnmG)
 
@@ -29,7 +28,7 @@ ps: Ngrok 的免费账号一个地区只能拥有一个隧道服务，所以想�
 `PORT_SOCKS_PROXY` socks代理映射frp服务器的端口  
 `PORT_HTTP_PROXY`  http代理映射frp服务器的端口  
 
-例如：
+例如：  
 NGROK_TOKEN=xxxx  
 PORT=80  
 REGION=jp  
