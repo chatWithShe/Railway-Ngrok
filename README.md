@@ -24,19 +24,19 @@ ps: Ngrok 的免费账号一个地区只能拥有一个隧道服务，所以想�
 
 `REGION` 中填入隧道所在的地区，距离越近越好
 
-`FRP_IP` 自己搭的frp服务器
-`PORT_SSH` 本地ssh映射frp服务器的端口
-`PORT_SOCKS_PROXY` socks代理映射frp服务器的端口
-`PORT_HTTP_PROXY`  http代理映射frp服务器的端口
+`FRP_IP` 自己搭的frp服务器  
+`PORT_SSH` 本地ssh映射frp服务器的端口 ,frp服务器用国内的，如果自己家有独立ip用自己家的 
+`PORT_SOCKS_PROXY` socks代理映射frp服务器的端口  
+`PORT_HTTP_PROXY`  http代理映射frp服务器的端口  
 
 例如：
 NGROK_TOKEN=xxxx  
 PORT=80  
-REGION=jp
-FRP_IP=frps.xxx.com
-PORT_SSH=52030
-PORT_SOCKS_PROXY=52031
-PORT_HTTP_PROXY=52032
+REGION=jp  
+FRP_IP=frps.xxx.com  
+PORT_SSH=52030  
+PORT_SOCKS_PROXY=52031  
+PORT_HTTP_PROXY=52032  
 
 
 查看部署Deploy Log ，在log里有ssh链接的账号密码
